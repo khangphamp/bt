@@ -1,38 +1,312 @@
-.App {
-  text-align: center;
+.div-sc {
+  align-items: flex-start;
+  border: 1px none;
+  display: flex;
+  max-width: 2560px;
+  min-height: 72px;
+  min-width: 1440px;
+  padding: 0px 32px;
+  position: relative;
+  width: 100%;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.div-sc .nav {
+  align-items: flex-start;
+  display: flex;
+  justify-content: space-between;
+  padding: 0px 3.05e-5px 0px 0px;
+  position: relative;
+  width: 1376px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.div-sc .div-sc-ceaf {
+  align-items: center;
+  display: inline-flex;
+  flex: 0 0 auto;
+  padding: 6px 32px 6px 0px;
+  position: relative;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.div-sc .link {
+  flex: 0 0 auto;
+  position: relative;
+}
+
+.div-sc .div {
+  align-items: flex-start;
+  display: flex;
+  position: relative;
+  width: 167.48px;
+}
+
+.div-sc .separator-wrapper {
+  align-items: flex-start;
+  display: inline-flex;
+  flex: 0 0 auto;
+  padding: 0px 24px;
+  position: relative;
+}
+
+.div-sc .separator {
+  background-color: #ffffff33;
+  height: 32px;
+  position: relative;
+  width: 1px;
+}
+
+.div-sc .div-sc-ceaf-2 {
+  align-items: center;
+  display: inline-flex;
+  flex: 0 0 auto;
+  gap: 31.08px;
+  margin-right: -0.6px;
+  padding: 3px 0px 4px;
+  position: relative;
+}
+
+.div-sc .div-wrapper {
+  align-items: flex-start;
+  display: inline-flex;
+  flex: 0 0 auto;
+  padding: 0px 0px 1px;
+  position: relative;
+}
+
+.div-sc .text-wrapper {
+  color: #ffffff;
+  font-family: "Inter-SemiBold", Helvetica;
+  font-size: 16px;
+  font-weight: 600;
+  letter-spacing: 0;
+  line-height: 24px;
+  margin-top: -1px;
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.div-sc .combobox-wrapper {
+  align-items: center;
+  display: flex;
+  flex: 1;
+  flex-grow: 1;
+  justify-content: center;
+  padding: 12px 12px 12px 0px;
+  position: relative;
+}
+
+.div-sc .combobox {
+  background-color: #ffffff1f;
+  border-radius: 12px;
+  height: 48px;
+  position: relative;
+  width: 723.11px;
+}
+
+.div-sc .text-wrapper-2 {
+  color: #ffffff;
+  font-family: "Inter-Regular", Helvetica;
+  font-size: 16px;
+  font-weight: 400;
+  height: 24px;
+  left: 9px;
+  letter-spacing: 0;
+  line-height: 24px;
+  opacity: 0.8;
+  position: absolute;
+  top: 11px;
+  white-space: nowrap;
+  width: 24px;
+}
+
+.div-sc .searchbox-search {
+  align-items: flex-start;
+  display: flex;
+  left: 41px;
+  padding: 4px 6px 4.5px 2px;
+  position: absolute;
+  top: 10px;
+  width: 647px;
+}
+
+.div-sc .pseudo {
+  align-items: flex-start;
+  display: flex;
+  opacity: 0.8;
+  padding: 0px 339.11px 0.5px 0px;
+  position: relative;
+  width: 639.11px;
+}
+
+.div-sc .p {
+  color: #ffffff;
+  font-family: "Inter-Regular", Helvetica;
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: normal;
+  margin-top: -1px;
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.div-sc .open-using {
+  background-color: #ffffff29;
+  border-radius: 8px;
+  height: 26px;
+  left: 688px;
+  position: absolute;
+  top: 11px;
+  width: 26px;
+}
+
+.div-sc .text-wrapper-3 {
+  color: #ffffff;
+  font-family: "Inter-Regular", Helvetica;
+  font-size: 12px;
+  font-weight: 400;
+  height: 14px;
+  left: 11px;
+  letter-spacing: 0;
+  line-height: 26px;
+  position: absolute;
+  top: 4px;
+  white-space: nowrap;
+  width: 4px;
+}
+
+.div-sc .list {
+  align-items: flex-start;
+  display: inline-flex;
+  flex: 0 0 auto;
+  position: relative;
+}
+
+.div-sc .div-sc-wrapper {
+  align-items: center;
   display: flex;
   flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  padding: 12px 12px 12px 0px;
+  position: relative;
+  width: 243.41px;
 }
 
-.App-link {
-  color: #61dafb;
+.div-sc .div-sc-ceaf-3 {
+  align-items: flex-start;
+  display: flex;
+  flex: 0 0 auto;
+  position: relative;
+  width: 231.41px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.div-sc .button {
+  background-color: #ffffff1f;
+  border-radius: 12px 0px 0px 12px;
+  height: 48px;
+  position: relative;
+  width: 177.41px;
+}
+
+.div-sc .i-sc {
+  align-items: flex-start;
+  display: inline-flex;
+  justify-content: center;
+  left: 13px;
+  position: absolute;
+  top: 1px;
+}
+
+.div-sc .text-wrapper-4 {
+  color: #ffffff;
+  font-family: "Inter-Regular", Helvetica;
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: 24px;
+  margin-top: -1px;
+  position: relative;
+  text-align: center;
+  width: 24.2px;
+}
+
+.div-sc .span-sc {
+  align-items: flex-start;
+  display: inline-flex;
+  justify-content: center;
+  left: 49px;
+  position: absolute;
+  top: 12px;
+}
+
+.div-sc .text-wrapper-5 {
+  color: #ffffff;
+  font-family: "Inter-SemiBold", Helvetica;
+  font-size: 16px;
+  font-weight: 600;
+  letter-spacing: 0;
+  line-height: 24px;
+  margin-top: -1px;
+  position: relative;
+  text-align: center;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.div-sc .link-2 {
+  background-color: #ffffff1f;
+  border-radius: 0px 12px 12px 0px;
+  height: 48px;
+  position: relative;
+  width: 54px;
+}
+
+.div-sc .text-wrapper-6 {
+  color: #ffffff;
+  font-family: "Inter-Regular", Helvetica;
+  font-size: 19px;
+  font-weight: 400;
+  height: 28px;
+  left: 13px;
+  letter-spacing: 0;
+  line-height: 28px;
+  position: absolute;
+  top: 9px;
+  white-space: nowrap;
+  width: 28px;
+}
+
+.div-sc .item {
+  align-items: center;
+  display: inline-flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  justify-content: center;
+  padding: 12px 0px;
+  position: relative;
+}
+
+.div-sc .list-button {
+  background-color: #ffffff1f;
+  border-radius: 12px;
+  height: 48px;
+  position: relative;
+  width: 48px;
+}
+
+.div-sc .text-wrapper-7 {
+  color: #ffffff;
+  font-family: "Inter-Regular", Helvetica;
+  font-size: 16px;
+  font-weight: 400;
+  height: 24px;
+  left: 12px;
+  letter-spacing: 0;
+  line-height: 24px;
+  position: absolute;
+  text-align: center;
+  top: 11px;
+  white-space: nowrap;
+  width: 24px;
 }
